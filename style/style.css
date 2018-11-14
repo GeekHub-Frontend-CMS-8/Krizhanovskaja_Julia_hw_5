@@ -1,0 +1,258 @@
+.header{
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: #f6f9f9;
+}
+
+.wrapper{
+    height: 100%;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.welcome{
+    height: 800px;
+    background-image: url('../img/bg2.png');
+    background-size: cover;
+}
+
+.logo{
+    align-self: center;
+}
+
+.welcome__content{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 120px;
+    margin-bottom: 30px;
+    /*
+    line-height: 47px;
+    text-transform: uppercase;
+    letter-spacing: 3px;*/
+}
+
+.line{
+    width: 600px;
+    height: 2px;
+    margin-bottom: 30px;
+    background-color: #15a4fa;
+}
+
+.welcome__p{
+    margin-bottom: 60px;
+}
+
+.btn{
+    width: 176px;
+    height: 54px;
+    border-radius: 2px;
+    border: 1px solid #15a4fa;
+    color: #ffff;
+    background-color: transparent;
+}
+
+.btn:hover{
+    background-color: #15a4fa;
+}
+
+.welcome__btn{
+    margin-bottom: 170px;
+}
+
+.content {
+    padding: 80px 0 150px 0;
+    background-color: #f6f9f9;
+    height: 340px;
+    text-align: center;
+}
+
+.caption{
+    /* Style for "Simple & p"
+    width: 388px;
+    height: 37px;*/
+    color: #2d3950;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.content__p{
+    color: #999999;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+.feature{
+    height: 350px;
+    background: #ffffff;
+
+}
+
+.feature__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature__icon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, #48baff, #5fc3ff);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__box {
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+.feature__heading{
+    color: #2d3950;
+    font-size: 22px;
+    letter-spacing: 0.55px;
+    margin-bottom: 20px;
+}
+
+.feature__p{
+    color: #999999;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.38px;
+}
+
+.portfolio{
+    padding: 80px;
+    height: 900px;
+    background-color: #f6f9f9;
+}
+
+.portfolio_p{
+    color: #909090;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.38px;
+}
+
+.portfolio__image{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio_img{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.form{
+    height: 700px;
+    background-image: url("../img/bg1.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.form p{
+    margin-bottom: 50px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form .form__item {
+    background: transparent;
+    width: 553px;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid #999999;
+    padding-left: 25px;
+}
+
+.form li{
+    margin-top: 15px;
+}
+
+.form li textarea {
+    height: 160px;
+    width: 553px;
+    border-radius: 2px;
+    border: 1px solid #999999;
+    background: transparent;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.white{
+    color: #ffff;
+}
+
+.footer{
+    height: 100px;
+    background-color: #f6f9f9;
+}
+
+.footer__icon{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: #15a4fa;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__p{
+    color: #999999;
+    font-size: 15px;
+
+}
+
+.footer__box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__icon-f:hover{
+    background-color: #3b5998;
+}
+
+.footer__icon-g:hover{
+    background-color: #dd4b39;
+}
+
+.footer__icon-i:hover{
+    background-color: #0976b4;
+}
